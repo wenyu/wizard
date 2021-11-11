@@ -64,7 +64,7 @@ async def get_levels(request):
 
 @protected
 async def post_levels(request):
-    pass
+    return aiohttp.web.json_response({'id': 'uwu'})
 
 
 @protected
